@@ -54,7 +54,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/_56sdp"
             android:layout_marginHorizontal="40dp"
-            android:layout_marginTop="@dimen/_42sdp"
+            android:layout_marginTop="@dimen/_14sdp"
             android:backgroundTint="#80F988"
             android:fontFamily="@font/poppins_semibold"
             android:text="Mulai Chat"

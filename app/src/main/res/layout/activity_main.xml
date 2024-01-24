@@ -10,16 +10,18 @@
 
     <ImageView
         android:id="@+id/title"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_120sdp"
         android:src="@drawable/title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginBottom="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_14sdp"
         app:layout_constraintBottom_toTopOf="@id/layout_chat"
         android:layout_marginLeft="@dimen/_6sdp"/>
+
+
 
     <RelativeLayout
         android:id="@+id/layout_chat"
@@ -43,6 +45,17 @@
             android:layout_alignParentEnd="true"
             app:layout_constrainedHeight="true" />
 
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:id="@+id/animation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/anim" />
 
         <com.google.android.material.card.MaterialCardView
             android:layout_alignParentEnd="true"

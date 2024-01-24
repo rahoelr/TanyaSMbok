@@ -50,5 +50,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.intuit.ssp:ssp-android:1.1.0")
     implementation ("com.intuit.sdp:sdp-android:1.1.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation ("com.airbnb.android:lottie:3.4.0")
 
 }
